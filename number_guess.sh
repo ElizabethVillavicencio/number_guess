@@ -50,7 +50,7 @@ while true; do
   # Incrementar el contador de intentos
   GUESSES=$((GUESSES + 1))
   
-  # Verificar si el número es correcto
+  # Verifica si el número ingresado es correcto
   if [[ $GUESS -eq $SECRET_NUMBER ]]; then
     echo "You guessed it in $GUESSES tries. The secret number was $SECRET_NUMBER. Nice job!"
     
