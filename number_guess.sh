@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Configurar la variable de conexión a la base de datos
+# Conectarse a la base de datos
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
 # Generar un número aleatorio entre 1 y 1000
