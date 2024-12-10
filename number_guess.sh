@@ -9,7 +9,7 @@ SECRET_NUMBER=$(( RANDOM % 1000 + 1 ))
 # Mostrar el número generado (solo para pruebas, eliminarlo en el script final)
 echo "El número generado es: $SECRET_NUMBER"
 
-# Pedir el nombre de usuario
+# Preguntar nombre de usuario
 echo "Enter your username:"
 read USERNAME
 
